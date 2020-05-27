@@ -1,0 +1,14 @@
+vendor
+web/core
+# Ignore conf. files that may contain sensitive information.
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/
+# Ignore paths that contain user-generated content.
+web/sites/*/files
+web/sites/*/private
+# Ignore logs and databases
+*.sql
+*.log
